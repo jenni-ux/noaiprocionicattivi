@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Per te ❤️</title>
+
+  <style>
+    body{
+      margin:0;
+      padding:0;
+      font-family:Arial, sans-serif;
+      background:#3b000f;
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .container{
+      max-width:700px;
+      margin:auto;
+      padding:40px 20px;
+      text-align:center;
+    }
+
+    h1{
+      font-size:42px;
+      margin-bottom:10px;
+      color:#ffb3c7;
+    }
+
+    .subtitle{
+      opacity:0.8;
+      margin-bottom:40px;
+    }
+
+    .card{
+      background:#5c0017;
+      border:1px solid rgba(255,255,255,0.1);
+      padding:25px;
+      border-radius:25px;
+      margin-bottom:25px;
+      box-shadow:0 0 20px rgba(0,0,0,0.25);
+    }
+
+    h2{
+      color:#ff9fba;
+      margin-top:0;
+    }
+
+    p{
+      line-height:1.7;
+    }
+
+    .funny{
+      background:#72001d;
+    }
+
+    button{
+      background:#ff4f87;
+      color:white;
+      border:none;
+      padding:15px 25px;
+      border-radius:15px;
+      cursor:pointer;
+      font-size:16px;
+      margin-top:15px;
+      transition:0.2s;
+    }
+
+    button:hover{
+      transform:scale(1.05);
+    }
+
+    #secret{
+      display:none;
+      margin-top:20px;
+      font-size:18px;
+      color:#ffd6e2;
+    }
+
+    .footer{
+      opacity:0.6;
+      margin-top:40px;
+      font-size:14px;
+    }
+
+    .heart{
+      font-size:50px;
+      animation: pulse 1.5s infinite;
+      margin-bottom:15px;
+    }
+
+    @keyframes pulse{
+      0%{transform:scale(1);}
+      50%{transform:scale(1.1);}
+      100%{transform:scale(1);}
+    }
+
+    /* Progress bar styles */
+    .progress-container {
+      width: 100%;
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      margin: 10px 0 20px 0;
+      position: relative;
+      height: 25px;
+      font-weight: bold;
+      color: #ff4f87;
+      font-size: 18px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      background: #ff4f87;
+      height: 100%;
+      width: 0;
+      border-radius: 15px 0 0 15px;
+      animation: fillBar 2s forwards;
+    }
+    .progress-text {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      line-height: 25px;
+      text-align: center;
+      pointer-events: none;
+      user-select:none;
+    }
+
+    @keyframes fillBar {
+      from { width: 0; }
+      to { width: 97%; }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>ei amore, voglio che leggi questo con attenzione
+</h1>
+
+    <p class="subtitle">
+      non so bene come iniziare, quindi lo scrivo come mi viene
+    </p>
+
+    <div class="card">
+      <h2>una cosa seria</h2>
+
+      <p>
+        è da ormai 3 giorni che siamo in questa situazione qui, non so bene da dove è cominciato o forse ne ho idea ma non è questo da dove voglio partire, perché la cosa più importante è mettere in chiaro una cosa:
+      </p>
+
+      <p>
+        Mi dispiace se in questi giorni non ti sono stata accanto come al solito e che forse ti sei sentito ignorato o poco importante, non era mia intenzione farti sentire così.
+      </p>
+
+      <p>
+       come avevo già detto l’altro giorno, mi ha iniziato a fare male l’occhio così random e finivo di addormentarmi anche senza volerlo. non so perché, ma sta cosa mi fa stancare di più, qualsiasi cosa che faccio mi stanca tantissimo (per esempio anche ester mi fa che ero più stanca degli altri giorni e anche mia madre). 
+      </p>
+      
+      <p>
+      se pensi che io l’abbia fatto apposta per ignorarti e per non passare del tempo assieme a te non è così, non mi permetterei mai di fare una cosa del genere perché per me tu sei al primo posto, sei la ragione della mia vita non potrei mai fare una roba del genere.
+  </p>
+
+<p>
+  comunque non so bene da dove è iniziata questa cosa tra di noi. forse dal film, forse del perché finivo nelladdormentarmi o per altro, non lo so. però ti posso dire che mi era dispiaciuto un po’ quando avevi cambiato idea sul film.
+    </p>
+    </div>
+
+    <div class="card funny">
+<div class="card">
+      <h2>statistiche di questi giorni...</h2>
+      
+      <p>
+      (secondo i miei calcoli)
+    </p>
+
+
+
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+          <div class="progress-text">percentuale broncio: 67%</div>
+          male male piu della meta 😱😰
+        </div>
+
+        effetti su di me: confusione + nostalgia + depressione + voglia di strapazzarti ancora di piu
+      </p>
+      <p>
+        • eri: 10% procione cattivo<br>
+        • 90% omino misterioso testardo che guarda video e risponde male
+      </p>
+
+      <p>
+        e anche cosi ti amo lo stesso (purtroppo)
+      </p>
+
+      <button onclick="showSecret()">
+        clicca per disattivare il broncio
+      </button>
+
+      <div id="secret">
+        🎉BRONCIO DISATTIVATO CON SUCCESSO JAJAJ🎉<br><br>
+        ora sei obbligato a tornare carino e coccoloso come prima😋
+      </div>
+
+    </div>
+
+    <div class="card">
+      <h2>ultima cosa</h2>
+      <p>
+        comunque non è una predica o altro, semplicemente mi dispiace che stiamo in questa situazione di merda dove siamo distanti, perciò ti sto dicendo tutto questo e che mi manca sentirti ridere
+
+
+      </p>
+      <p>
+       ...comunque in una relazione sentire la voce cambia molto piu di mille messaggi, quindi appena finisci di leggere questo chimami subito, non mi importa l'ora, chiamami che voglio sentire la tua voce scemo
+      </p>
+    </div>
+
+    <div class="footer">
+      fatto con amore da una ragazza che ama suo marito piu di altra cosa.
+      ricordati che non farei mai nulla di proposito per farti arrabbiare o star male.  ti amo amoremio (e buonanotte🤍)
+    </div>
+    (ho dovuto rifarlo 2 volte perche mi si era cancellato)
+
+  </div>
+
+  <script>
+    function showSecret(){
+      document.getElementById("secret").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
